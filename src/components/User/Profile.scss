@@ -43,3 +43,24 @@
 .Profile__main-content {
   width: 100%;
 }
+
+.Profile__name {
+  margin: 0;
+  font-size: 20px;
+  word-break: break-all;
+}
+
+.Profile__description {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.Profile__description-item {
+  font-size: 16px;
+}
+
+.Profile__description-data {
+  font-size: 14px;
+  color: var(--red);
+}

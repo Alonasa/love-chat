@@ -19,12 +19,13 @@ const topMenu = [
 ]
 
 const profileItem =
-    {id: 0, name: 'John Dove', link: '../../pictures/pic_01.jpg', lastActivity: '30 min ago'};
+    {id: 0, name: 'John Dove', link: '../../pictures/pic_01.jpg', city: ' Odessa', lastActivity: ' 30 min ago'};
 
 type ProfileDataType = {
     id: number
     name: string
     link: string
+    city: string
     lastActivity: string
 }
 
@@ -35,7 +36,15 @@ export const ProfileInfo = (props: ProfileDataType) => {
             <div className="Container">
                 <img src={pic_01} alt={`${props.name} photo`} className="Profile__avatar"/>
                 <h3 className="Profile__name">{props.name}</h3>
-                <span className="Profile__lastActivity">{props.lastActivity}</span>
+                <ul className="Profile__description">
+                    <li className="Profile__description-item">City:
+                        <span className="Profile__description-data">{props.city}</span>
+                    </li>
+                    <li className="Profile__description-item">Active:
+                        <span className="Profile__description-data">{props.lastActivity}</span>
+                    </li>
+                </ul>
+
             </div>
         </div>
     )
@@ -52,7 +61,7 @@ export const Profile = () => {
                 <div className="Profile__right">
 
                     <ProfileInfo id={profileItem.id} name={profileItem.name} link={profileItem.link}
-                                 lastActivity={profileItem.lastActivity}/>
+                                 lastActivity={profileItem.lastActivity} city={profileItem.city}/>
                     <div className="Profile__main-content">
                         <TopMenu items={topMenu}/>
                     </div>
