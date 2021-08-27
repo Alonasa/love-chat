@@ -1,5 +1,6 @@
 import React from 'react';
 import {NavType} from '../Nav';
+import './NavItem.scss';
 
 export const NavItem = (props: NavType) => {
     return (

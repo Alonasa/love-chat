@@ -1,20 +1,19 @@
 .Nav, .Nav__menu {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .Nav__menu {
   padding: 0;
+  margin: 0;
   list-style: none;
 }
 
-.Nav__main {
-  justify-content: space-between;
+.Nav__submenu {
+  margin-left: 40px;
 }
 
 .Nav__link {
-  padding: 20px;
   text-decoration: none;
   color: var(--white);
 }
