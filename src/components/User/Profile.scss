@@ -2,8 +2,33 @@
   background: var(--appDark);
 }
 
-.Profile-info {
+.Profile__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Profile__title {
   margin: 0;
+  padding-bottom: 20px;
+  color: var(--white);
+}
+
+.Profile__left {
+  width: 25%;
+}
+
+.Profile__right {
+  width: 75%;
+  display: flex;
+  background-color: var(--lightGray);
+}
+
+.Profile__info {
+  width: 200px;
+}
+
+.Profile__avatar {
+  width: 100%;
 }
 
 .Profile__menu {
@@ -13,4 +38,8 @@
 
 .Profile__menu li {
   border-bottom: 2px solid var(--red);
+}
+
+.Profile__main-content {
+  width: 100%;
 }

@@ -8,11 +8,11 @@ import {Profile} from './components/User/Profile';
 function App() {
     return (
         <div className="App">
-            <div className="App-container">
-                <header className="App-header">
-                    <a className="App-main">
-                        <img src={logo} className="App-logo" alt="logo"/>
-                        <span className="App-title">Love Chat</span>
+            <div className="App__container">
+                <header className="App__header">
+                    <a className="App__main">
+                        <img src={logo} className="App__logo" alt="logo"/>
+                        <span className="App__title">Love Chat</span>
                     </a>
                     <Nav/>
                 </header>

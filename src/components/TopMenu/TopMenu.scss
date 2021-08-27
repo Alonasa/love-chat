@@ -1,0 +1,26 @@
+.Top-menu {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: start;
+    list-style: none;
+    box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.2);
+    background-color: var(--white);
+    font-weight: bold;
+}
+
+.Top-menu li {
+    padding: 10px 20px;
+}
+
+.Top-menu__item a {
+    color: var(--appDark);
+    text-decoration: none;
+}
+
+.Top-menu__item:hover a {
+    text-decoration: underline;
+    color: var(--red);
+}
+
+
