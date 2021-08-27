@@ -1,8 +1,5 @@
-$pink: #de2440;
-$appDark: #282c34;
-
 .Profile {
-  background: $appDark;
+  background: var(--color-appDark);
 }
 
 .Profile-info {
@@ -12,10 +9,8 @@ $appDark: #282c34;
 .Profile__menu {
   margin: 0;
   flex-direction: column;
-  top: 12vh;
-  left: 20vw;
 }
 
 .Profile__menu li {
-  border-bottom: 2px solid $pink;
+  border-bottom: 2px solid var(--color-pink);
 }
