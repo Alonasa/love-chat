@@ -16,25 +16,21 @@ type ListItems = {
 }
 
 const mainMenu = [
-    {id: 0, title: 'Users', href: 'users', itemClass: 'nav-link'},
-    {id: 1, title: 'Posts', href: 'posts', itemClass: 'nav-link'},
-    {id: 2, title: 'Top', href: 'top', itemClass: 'nav-link'},
-    {id: 3, title: 'Shop', href: 'shop', itemClass: 'nav-link'},
-    {id: 4, title: 'FAQ', href: 'faq', itemClass: 'nav-link'},
+    {id: 0, title: 'Users', href: 'users', itemClass: 'Nav__link'},
+    {id: 1, title: 'Posts', href: 'posts', itemClass: 'Nav__link'},
+    {id: 2, title: 'Top', href: 'top', itemClass: 'Nav__link'},
+    {id: 3, title: 'Shop', href: 'shop', itemClass: 'Nav__link'},
+    {id: 4, title: 'FAQ', href: 'faq', itemClass: 'Nav__link'},
+    {id: 5, title: 'User', href: 'user', itemClass: 'Nav__link Nav__submenu'},
+
 ]
 
-const userMenu = [
-    {id: 0, title: 'Profile', href: 'profile', itemClass: 'nav-link'},
-    {id: 1, title: 'News', href: 'news', itemClass: 'nav-link'},
-    {id: 2, title: 'Messages', href: 'messages', itemClass: 'nav-link'},
-    {id: 3, title: 'Logout', href: 'logout', itemClass: 'nav-link'},
-]
+
 
 export const Nav = () => {
     return (
-        <nav className="nav">
-            <NavItem menuItems={mainMenu} menuName={"nav__main"}/>
-            <NavItem menuItems={userMenu} menuName={"nav__user"}/>
+        <nav className="Nav">
+            <NavItem menuItems={mainMenu} menuName={"Nav__main"}/>
         </nav>
     )
 }

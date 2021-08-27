@@ -1,0 +1,21 @@
+$pink: #de2440;
+$appDark: #282c34;
+
+.Profile {
+  background: $appDark;
+}
+
+.Profile-info {
+  margin: 0;
+}
+
+.Profile__menu {
+  margin: 0;
+  flex-direction: column;
+  top: 12vh;
+  left: 20vw;
+}
+
+.Profile__menu li {
+  border-bottom: 2px solid $pink;
+}

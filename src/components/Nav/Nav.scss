@@ -1,18 +1,27 @@
-.nav, .nav__menu {
+$textHover: #cee3fd;
+
+.Nav, .Nav__menu {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.nav__menu {
+.Nav__menu {
   padding: 0;
-  margin: 0;
   list-style: none;
 }
 
-.nav-item {
-  display: block;
+.Nav__main {
+  width: 60vw;
+  justify-content: space-between;
 }
 
-.nav-link {
+.Nav__link {
+  padding: 20px;
   text-decoration: none;
   color: white;
+}
+
+.Nav__link:hover {
+  color: $textHover;
 }
