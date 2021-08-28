@@ -3,6 +3,7 @@ import {NavItem} from '../Nav/NavItem/NavItem';
 import './Profile.scss';
 import {TopMenu} from '../TopMenu/TopMenu';
 import pic_01 from '../../pictures/pic_01.jpg'
+import {Posts} from '../Posts/Posts';
 
 const UserMenu = [
     {id: 0, title: 'Profile', href: 'profile', itemClass: 'Nav__link'},
@@ -64,6 +65,7 @@ export const Profile = () => {
                                  lastActivity={profileItem.lastActivity} city={profileItem.city}/>
                     <div className="Profile__main-content">
                         <TopMenu items={topMenu}/>
+                        <Posts/>
                     </div>
                 </div>
             </div>

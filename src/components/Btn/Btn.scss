@@ -1,0 +1,36 @@
+.Btn {
+  padding: 0px 20px;
+  width: auto;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  text-decoration: none;
+  color: var(--white);
+  border: 0px;
+  border-radius: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Btn__post {
+  background-image: linear-gradient(
+                  166deg, var(--red) 0%, var(--appDark) 100%);
+  box-shadow: 0.872px 9.962px 20px 0px rgba(12, 78, 165, 0.3);
+}
+
+.Btn__post:hover {
+  background-image: linear-gradient(
+                  166deg, var(--white) 0%, var(--red) 100%);
+  box-shadow: 1px 10px 20px 0px rgba(12, 78, 165, 0.4);
+}
+
+.Btn__attach {
+  background-image: linear-gradient(
+                  166deg, var(--white) 0%, var(--red) 100%);
+  box-shadow: 1px 10px 20px 0px rgba(12, 78, 165, 0.4);
+}
+
+.Btn__attach:hover {
+  box-shadow: 1px 10px 20px 0px rgba(12, 78, 165, 0.6);
+}

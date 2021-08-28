@@ -1,8 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import '../src/components/Btn/Btn.scss'
 import {Nav} from './components/Nav/Nav';
-import {Profile} from './components/User/Profile';
+import {Profile} from './components/Profile/Profile';
 
 
 function App() {
