@@ -3,10 +3,10 @@
 }
 
 .Post {
+  padding: 20px 25px;
+  margin: 20px;
   border-radius: 10px;
   background-color: var(--white);
-  padding: 30px 30px 29px;
-  margin-top: 20px;
 }
 
 .Post__write {
@@ -16,8 +16,8 @@
 .Post__write textarea {
   padding: 0 0 0 60px;
   width: 100%;
-  background-color: #ffffff;
   height: 100px;
+  background-color: #ffffff;
   border: none;
   border-radius: 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -42,4 +42,18 @@
 .Left {
   display: flex;
   align-items: baseline;
+}
+
+.Select-bar {
+  min-width: 105px;
+  height: 30px;
+  padding: 0 15px 0 10px;
+  margin-left: 15px;
+  display: inline-block;
+  background: none;
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  line-height: 28px;
+  cursor: pointer;
 }
